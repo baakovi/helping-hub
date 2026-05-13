@@ -38,7 +38,7 @@ Utilizamos o **Kanban** para gerenciar o fluxo de trabalho. Nosso quadro de tare
 
 ---
 
-## 🛠️ Tecnologias Sugeridas
+## 🛠️ Tecnologias
 * **Linguagem:** TypeScript
 * **Frontend:** ReactJS
 * **Backend:** Express.js + NodeJS
@@ -52,3 +52,34 @@ Utilizamos o **Kanban** para gerenciar o fluxo de trabalho. Nosso quadro de tare
 ├── docs/           # Documentação de Engenharia de Software (Diagramas, Requisitos)
 ├── tests/          # Casos de teste e scripts de automação
 └── README.md       # Documentação principal
+```
+
+## 🏗️ Status do Projeto: Parte 2 Concluída
+Nesta fase, estruturamos a base de engenharia e o planejamento de qualidade. O foco agora é a implementação do código base seguindo os diagramas definidos.
+
+## 📁 Links Rápidos para Documentação
+* [**Requisitos e Qualidade**](docs/DOCUMENTATION.md)
+* [**Arquitetura e Modelagem**](src/SOURCE.md)
+* [**Estratégia de Testes**](tests/TESTS.md)
+
+## 🎨 Design & Protótipo
+O layout do HelpingHub foi planejado para ser intuitivo e moderno. Possui usuários de teste na primeira tela.
+
+* **Figma:** [Acessar Proposta de Design](https://www.figma.com/make/rKdbQ6wITtCuyFwQEjesyA/Design-Proposal-for-HelpingHub?fullscreen=1)
+
+## 🛠️ Stack Tecnológica
+* **Frontend:** React, TypeScript, TailwindCSS.
+* **Backend:** Node.js, Express, MySQL.
+* **DevOps:** Docker (opcional), GitHub Actions.
+
+## 🏃 Como rodar o projeto (Em breve)
+```bash
+# Clone o repositório
+git clone https://github.com/baakovi/helping-hub.git
+
+# Instale as dependências
+npm install
+
+# Inicie o desenvolvimento
+npm run dev
+```
